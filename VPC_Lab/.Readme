@@ -1,0 +1,19 @@
+The Objectives of this file is to complete the day to day tasks in AWS cloud by using Terraform.
+Tasks :-
+	Using IAM create 2 groups as below.
+	  “DevOps” and give the group permission to access all of your AWS account's resources.
+	“Staff” and give the group view only permission to ONLY view your AWS account's resources.
+
+	Create 2 users called
+1.	John
+2.	Paul
+•	Add user John to the DevOps group.
+•	Add user Paul to the Staff Group
+	Create a password “Admin123” for both users to use to sign into the AWS Management Console. 
+	Test 
+	That user John has admin right by provisioning an EC2 instance
+	That user Paul has only view access as he should NOT be able to Provision an EC2 instance.
+
+
+(Bonus Point => View only Policy is called ViewOnlyAccess)
+
